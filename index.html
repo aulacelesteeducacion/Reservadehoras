@@ -15,25 +15,25 @@
     }
 
     :root {
-      --bg: #f6fafb;
+      --bg: #f3f9f7;
       --surface: #ffffff;
-      --surface2: #f8fcfc;
-      --border: #deeaee;
-      --text: #24384d;
-      --text-secondary: #526b80;
-      --text-muted: #8294a3;
-      --accent: #17395f;
-      --accent-hover: #254d76;
-      --accent-bg: #e8f7fb;
-      --accent-text: #17395f;
-      --yellow: #e8bc61;
-      --yellow-bg: #fff5dd;
-      --green: #4f795d;
-      --green-bg: #eaf6f0;
-      --success-bg: #eaf6f0;
-      --success-text: #4f795d;
-      --danger-bg: #fff0ed;
-      --danger-text: #a94f48;
+      --surface2: #edf7f5;
+      --border: #dce9e5;
+      --text: #243a4c;
+      --text-secondary: #526b78;
+      --text-muted: #82949a;
+      --accent: #244c66;
+      --accent-hover: #2f6878;
+      --accent-bg: #e7f5f3;
+      --accent-text: #286e74;
+      --yellow: #e7b75e;
+      --yellow-bg: #fff5e4;
+      --green: #4c806a;
+      --green-bg: #eaf5ef;
+      --success-bg: #eaf5ef;
+      --success-text: #477861;
+      --danger-bg: #fff0eb;
+      --danger-text: #a9544e;
       --radius: 16px;
     }
 
@@ -47,7 +47,7 @@
 
     /* Header con banner */
     .site-header {
-      background: linear-gradient(130deg, #17395f 0%, #254d76 56%, #3b8b97 100%);
+      background: linear-gradient(125deg, #e4f5f3 0%, #f1f8f4 66%, #fff4e9 100%);
       padding: 1.6rem 1rem 2.2rem;
       text-align: center;
       position: relative;
@@ -77,7 +77,7 @@
       width: 72px;
       height: 72px;
       object-fit: contain;
-      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
+      filter: drop-shadow(0 4px 10px rgba(36, 76, 102, 0.12));
     }
 
     .header-text h1 {
@@ -90,7 +90,7 @@
 
     .header-text p {
       font-size: 14px;
-      color: rgba(255, 255, 255, 0.85);
+      color: #526b78;
       margin-top: 2px;
       font-weight: 400;
     }
@@ -110,7 +110,7 @@
       padding: 4px 12px;
       border-radius: 20px;
       backdrop-filter: blur(4px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      border: 1px solid rgba(40, 110, 116, 0.16);
     }
 
     .container {
@@ -154,7 +154,7 @@
     .tab.active {
       background: var(--accent);
       color: #fff;
-      box-shadow: 0 2px 8px rgba(21, 101, 192, 0.3);
+      box-shadow: 0 2px 8px rgba(36, 76, 102, 0.18);
     }
 
     .tab:hover:not(.active) {
@@ -193,7 +193,7 @@
     .week-btn.active {
       background: var(--yellow-bg);
       border-color: var(--yellow);
-      color: #b45309;
+      color: #99652c;
     }
 
     .week-btn:hover:not(.active) {
@@ -250,13 +250,13 @@
       border-color: var(--accent);
       background: var(--accent-bg);
       transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(21, 101, 192, 0.12);
+      box-shadow: 0 4px 12px rgba(40, 110, 116, 0.12);
     }
 
     .block.selected {
       border-color: var(--accent);
       background: var(--accent-bg);
-      box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.15);
+      box-shadow: 0 0 0 3px rgba(40, 110, 116, 0.14);
     }
 
     .block.taken {
@@ -328,13 +328,13 @@
 
     .field-wrap input:focus {
       border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.1);
+      box-shadow: 0 0 0 3px rgba(40, 110, 116, 0.1);
     }
 
     .btn-primary {
       width: 100%;
       padding: 13px;
-      background: linear-gradient(135deg, #17395f, #2f8290);
+      background: linear-gradient(135deg, #244c66, #318c8c);
       color: #fff;
       border: none;
       border-radius: var(--radius);
@@ -342,13 +342,13 @@
       font-weight: 700;
       cursor: pointer;
       transition: all 0.15s;
-      box-shadow: 0 8px 20px rgba(23, 57, 95, 0.18);
+      box-shadow: 0 8px 20px rgba(36, 76, 102, 0.18);
     }
 
     .btn-primary:hover {
-      background: linear-gradient(135deg, #254d76, #226979);
+      background: linear-gradient(135deg, #2f6878, #267b78);
       transform: translateY(-1px);
-      box-shadow: 0 10px 24px rgba(23, 57, 95, 0.22);
+      box-shadow: 0 10px 24px rgba(36, 76, 102, 0.22);
     }
 
     .msg {
@@ -394,12 +394,12 @@
 
     .stat:nth-child(2) {
       background: var(--yellow-bg);
-      border: 1px solid #f9a825;
+      border: 1px solid #e7b75e;
     }
 
     .stat:nth-child(3) {
       background: var(--green-bg);
-      border: 1px solid #81c784;
+      border: 1px solid #b6d6c3;
     }
 
     .stat-num {
@@ -615,7 +615,7 @@
         <p>Tu apoyo en educación</p>
       </div>
     </div>
-    <p style="color:rgba(255,255,255,0.8);font-size:13px;margin-top:10px;">Sistema de agendamientos para el portafolio
+    <p style="color:#526b78;font-size:13px;margin-top:10px;">Sistema de agendamientos para el portafolio
       docente 2026</p>
   </div>
 
